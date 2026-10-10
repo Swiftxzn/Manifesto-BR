@@ -22,6 +22,9 @@ cd Manifesto-BR
 
 ## RECOMENDO USAR COM SHERLOCK BY Nwokike
 
+```
+https://github.com/Swiftxzn/Sherlock
+```
 
 ### 2. Consumindo o JSON via URL Direta (Raw)
 

@@ -30,8 +30,13 @@ https://github.com/Swiftxzn/Sherlock
 
 Se você precisa carregar os dados em tempo de execução na sua aplicação, utilize o link direto do GitHub:
 
+Oficial Maifret:
 ```text
-https://raw.githubusercontent.com/Swiftxzn/Manifesto-BR/refs/heads/main/wmn-data-br-1000.json
+https://raw.githubusercontent.com/Swiftxzn/Manifesto-BR/refs/heads/main/data-oficial-maigret.json
+```
+Oficial Br:
+```text
+https://raw.githubusercontent.com/Swiftxzn/Manifesto-BR/refs/heads/main/data-br-manual-semIA.json
 ```
 
 ---

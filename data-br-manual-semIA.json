@@ -1,0 +1,843 @@
+{
+    "sites": {
+        "Alura": {
+            "url": "https://cursos.alura.com.br/user/{username}",
+            "urlMain": "https://cursos.alura.com.br",
+            "checkType": "message",
+            "usernameClaimed": "edmilson",
+            "usernameUnclaimed": "noonewouldeverusethis7",
+            "tags": [
+                "br",
+                "education",
+                "tech"
+            ],
+            "absenceStrs": [
+                "\"error\":\"Not Found\""
+            ],
+            "presenseStrs": [
+                "Perfil de"
+            ]
+        },
+        "ArtStation": {
+            "tags": [
+                "art",
+                "design",
+                "stock"
+            ],
+            "checkType": "message",
+            "presenseStrs": [
+                "<meta content=\"noindex, nofollow\" name=\"robots\" />"
+            ],
+            "alexaRank": 1372,
+            "urlMain": "https://www.artstation.com",
+            "url": "https://www.artstation.com/{username}",
+            "usernameClaimed": "adam",
+            "usernameUnclaimed": "noonewouldeverusethis7",
+            "protection": [
+                "tls_fingerprint"
+            ]
+        },
+        "Bandcamp": {
+            "protection": [
+                "ip_reputation"
+            ],
+            "tags": [
+                "music",
+                "sharing",
+                "social"
+            ],
+            "checkType": "status_code",
+            "alexaRank": 234,
+            "urlMain": "https://www.bandcamp.com/",
+            "url": "https://www.bandcamp.com/{username}",
+            "usernameClaimed": "blue",
+            "usernameUnclaimed": "noonewouldeverusethis7"
+        },
+        "Behance": {
+            "tags": [
+                "art",
+                "business",
+                "design"
+            ],
+            "headers": {
+                "User-Agent": "Curl"
+            },
+            "checkType": "status_code",
+            "alexaRank": 175,
+            "urlMain": "https://www.behance.net/",
+            "url": "https://www.behance.net/{username}",
+            "usernameClaimed": "blue",
+            "usernameUnclaimed": "noonewouldeverusethis7"
+        },
+        "CodePen": {
+            "tags": [
+                "apps",
+                "coding",
+                "design"
+            ],
+            "errors": {
+                "Checking your browser before accessing": "Autoredirect detected"
+            },
+            "checkType": "message",
+            "absenceStrs": [
+                "I'm afraid you've found a page that doesn't exist on CodePen"
+            ],
+            "alexaRank": 1087,
+            "urlMain": "https://codepen.io/",
+            "url": "https://codepen.io/{username}",
+            "usernameClaimed": "blue",
+            "usernameUnclaimed": "noonewouldeverusethis7",
+            "protection": [
+                "tls_fingerprint"
+            ]
+        },
+        "GitHub": {
+            "tags": [
+                "business",
+                "coding",
+                "networking"
+            ],
+            "regexCheck": "^[a-zA-Z0-9](?:[a-zA-Z0-9]|-(?=[a-zA-Z0-9])){0,38}$",
+            "urlProbe": "https://api.github.com/users/{username}",
+            "checkType": "status_code",
+            "alexaRank": 10,
+            "urlMain": "https://www.github.com/",
+            "url": "https://github.com/{username}",
+            "usernameClaimed": "blue",
+            "usernameUnclaimed": "noonewouldeverusethis7"
+        },
+        "GitLab": {
+            "tags": [
+                "business",
+                "coding",
+                "tech"
+            ],
+            "urlProbe": "https://gitlab.com/api/v4/users?username={username}",
+            "checkType": "message",
+            "absenceStrs": [
+                "[]"
+            ],
+            "alexaRank": 155,
+            "urlMain": "https://gitlab.com/",
+            "url": "https://gitlab.com/{username}",
+            "usernameClaimed": "blue",
+            "usernameUnclaimed": "noonewouldeverusethis7"
+        },
+        "HackerOne": {
+            "tags": [
+                "coding",
+                "hacking",
+                "tech"
+            ],
+            "checkType": "status_code",
+            "urlMain": "https://hackerone.com/",
+            "url": "https://hackerone.com/{username}",
+            "usernameClaimed": "nahamsec",
+            "usernameUnclaimed": "noonewouldeverusethis7",
+            "alexaRank": 3645
+        },
+        "Instagram": {
+            "tags": [
+                "networking",
+                "photo",
+                "social"
+            ],
+            "checkType": "message",
+            "urlProbe": "https://www.instagram.com/api/v1/users/web_profile_info/?username={username}",
+            "headers": {
+                "x-ig-app-id": "936619743392459",
+                "referer": "https://www.instagram.com/"
+            },
+            "presenseStrs": [
+                "\"biography\""
+            ],
+            "absenceStrs": [
+                "Sorry, this page isn&#39;t available.",
+                "dialog-404"
+            ],
+            "errors": {
+                "Login • Instagram": "Login required",
+                "\"routePath\":\"\\/\"": "Login required (rate-limited or session blocked)",
+                "Please wait a few minutes before you try again.": "Rate limited"
+            },
+            "alexaRank": 4,
+            "urlMain": "https://www.instagram.com/",
+            "url": "https://www.instagram.com/{username}/",
+            "usernameClaimed": "cristiano",
+            "usernameUnclaimed": "noonewouldeverusethis77777",
+            "protection": [
+                "tls_fingerprint"
+            ]
+        },
+        "Letterboxd": {
+            "tags": [
+                "movies",
+                "review",
+                "social"
+            ],
+            "checkType": "message",
+            "absenceStrs": [
+                "Sorry, we can’t find the page you’ve requested."
+            ],
+            "alexaRank": 2026,
+            "urlMain": "https://letterboxd.com/",
+            "url": "https://letterboxd.com/{username}",
+            "usernameClaimed": "blue",
+            "usernameUnclaimed": "noonewouldeverusethis7",
+            "protection": [
+                "tls_fingerprint"
+            ]
+        },
+        "Medium": {
+            "tags": [
+                "blog",
+                "discussion",
+                "writing"
+            ],
+            "checkType": "status_code",
+            "alexaRank": 66,
+            "urlMain": "https://medium.com/",
+            "url": "https://medium.com/@{username}",
+            "urlProbe": "https://medium.com/feed/@{username}",
+            "usernameClaimed": "blue",
+            "usernameUnclaimed": "noonewouldeverusethis7"
+        },
+        "Pinterest": {
+            "tags": [
+                "art",
+                "design",
+                "photo",
+                "sharing",
+                "social"
+            ],
+            "checkType": "message",
+            "alexaRank": 18,
+            "presenseStrs": [
+                "\"@type\":\"ProfilePage\""
+            ],
+            "absenceStrs": [
+                "User not found."
+            ],
+            "urlMain": "https://www.pinterest.com/",
+            "url": "https://www.pinterest.com/{username}/",
+            "usernameClaimed": "blue",
+            "usernameUnclaimed": "noonewouldeverusethis7"
+        },
+        "Reddit": {
+            "protection": [
+                "ip_reputation"
+            ],
+            "tags": [
+                "discussion",
+                "forum",
+                "news",
+                "social"
+            ],
+            "checkType": "message",
+            "absenceStrs": [
+                "Not Found"
+            ],
+            "presenseStrs": [
+                "\"name\":"
+            ],
+            "alexaRank": 49,
+            "urlMain": "https://www.reddit.com/",
+            "url": "https://www.reddit.com/user/{username}",
+            "urlProbe": "https://www.reddit.com/user/{username}/about.json",
+            "usernameClaimed": "AutoModerator",
+            "usernameUnclaimed": "noonewouldeverusethis7"
+        },
+        "Replit": {
+            "tags": [
+                "coding"
+            ],
+            "checkType": "message",
+            "presenseStrs": [
+                "Replit"
+            ],
+            "absenceStrs": [
+                "User not found"
+            ],
+            "urlMain": "https://replit.com",
+            "url": "https://replit.com/@{username}",
+            "usernameClaimed": "amasad",
+            "usernameUnclaimed": "noonewouldeverusethis7",
+            "protection": [
+                "cf_js_challenge",
+                "custom_bot_protection"
+            ]
+        },
+        "Roblox": {
+            "tags": [
+                "gaming"
+            ],
+            "checkType": "message",
+            "presenseStrs": [
+                "class=\"profile-container\""
+            ],
+            "absenceStrs": [
+                "request-error"
+            ],
+            "alexaRank": 2067,
+            "urlMain": "https://www.roblox.com/",
+            "url": "https://www.roblox.com/user.aspx?username={username}",
+            "usernameClaimed": "bluewolfekiller",
+            "usernameUnclaimed": "noonewouldeverusethis7"
+        },
+        "SoundCloud": {
+            "tags": [
+                "music",
+                "social",
+                "streaming"
+            ],
+            "checkType": "message",
+            "presenseStrs": [
+                "\"hydratable\":\"user\""
+            ],
+            "absenceStrs": [
+                "SoundCloud - Hear the world’s sounds"
+            ],
+            "urlMain": "https://soundcloud.com/",
+            "url": "https://soundcloud.com/{username}",
+            "usernameClaimed": "blue",
+            "usernameUnclaimed": "noonewouldeverusethis7",
+            "alexaRank": 70,
+            "protection": [
+                "tls_fingerprint"
+            ]
+        },
+        "Steam Community": {
+            "tags": [
+                "gaming",
+                "social"
+            ],
+            "checkType": "message",
+            "absenceStrs": [
+                "The specified profile could not be found"
+            ],
+            "alexaRank": 650,
+            "urlMain": "https://steamcommunity.com/",
+            "url": "https://steamcommunity.com/id/{username}",
+            "usernameClaimed": "blue",
+            "usernameUnclaimed": "noonewouldeverusethis7"
+        },
+        "TikTok": {
+            "tags": [
+                "social",
+                "video"
+            ],
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36"
+            },
+            "errors": {
+                "tiktok-verify-page": "Captcha detected"
+            },
+            "checkType": "message",
+            "presenseStrs": [
+                "\"nickname\":"
+            ],
+            "absenceStrs": [
+                "serverCode\":404"
+            ],
+            "alexaRank": 24,
+            "urlMain": "https://www.tiktok.com/",
+            "url": "https://www.tiktok.com/@{username}",
+            "usernameClaimed": "red",
+            "usernameUnclaimed": "noonewouldeverusethis1"
+        },
+        "Twitch": {
+            "tags": [
+                "gaming",
+                "social",
+                "streaming"
+            ],
+            "urlProbe": "https://twitchtracker.com/{username}",
+            "checkType": "status_code",
+            "alexaRank": 163,
+            "urlMain": "https://www.twitch.tv/",
+            "url": "https://twitchtracker.com/{username}",
+            "usernameClaimed": "adam",
+            "usernameUnclaimed": "noonewouldeverusethis7"
+        },
+        "X": {
+            "tags": [
+                "messaging",
+                "social"
+            ],
+            "headers": {
+                "sec-ch-ua": "Google Chrome\";v=\"87\", \" Not;A Brand\";v=\"99\", \"Chromium\";v=\"87\"",
+                "authorization": "Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36",
+                "x-guest-token": "2061101045997080676"
+            },
+            "errors": {
+                "Bad guest token": "x-guest-token update required"
+            },
+            "regexCheck": "^[a-zA-Z0-9_]{1,15}$",
+            "activation": {
+                "method": "twitter",
+                "marks": [
+                    "Bad guest token",
+                    "Bad guest token."
+                ],
+                "url": "https://api.twitter.com/1.1/guest/activate.json",
+                "src": "guest_token",
+                "dst": "x-guest-token"
+            },
+            "urlProbe": "https://twitter.com/i/api/graphql/ZRnOhhXPwue_JGILb9TNug/UserByScreenName?variables=%7B%22screen_name%22%3A%22{username}%22%2C%22withHighlightedLabel%22%3Atrue%7D",
+            "checkType": "message",
+            "presenseStrs": [
+                "\"legacy\""
+            ],
+            "absenceStrs": [
+                " not found"
+            ],
+            "alexaRank": 5,
+            "urlMain": "https://www.twitter.com/",
+            "url": "https://twitter.com/{username}",
+            "usernameClaimed": "blue",
+            "usernameUnclaimed": "noonewould123"
+        },
+        "YouTube": {
+            "tags": [
+                "social",
+                "streaming",
+                "video"
+            ],
+            "headers": {
+                "User-Agent": "curl/8.6.0",
+                "Accept": "*/*"
+            },
+            "regexCheck": "^[^\\/]+$",
+            "checkType": "message",
+            "presenseStrs": [
+                "visitorData",
+                "userAgent"
+            ],
+            "absenceStrs": [
+                "404 Not Found"
+            ],
+            "alexaRank": 3,
+            "urlMain": "https://www.youtube.com/",
+            "url": "https://www.youtube.com/@{username}/about",
+            "usernameClaimed": "test",
+            "usernameUnclaimed": "noonewouldeverusethis777"
+        }
+    },
+    "engines": {
+        "XenForo": {
+            "name": "XenForo",
+            "site": {
+                "ignore403": true,
+                "absenceStrs": [
+                    "The requested page could not be found.",
+                    "The specified member cannot be found. Please enter a member",
+                    "Указанный пользователь не найден. Пожалуйста, введите другое имя.",
+                    "Le membre spécifié est introuvable. Veuillez saisir le nom complet d'un membre.",
+                    "Belirtilen üye bulunamadı. Lütfen bir üyenin tam adını giriniz."
+                ],
+                "presenseStrs": [
+                    "Вы должны быть авторизованы, чтобы выполнить это действие или просмотреть эту страницу.",
+                    "Для того, чтобы это сделать, нужно сначала войти на форум.",
+                    "You must be logged-in to do that.",
+                    "You must be logged in to do that.",
+                    "הינך נדרש להתחבר כדי לבצע פעולה זו.",
+                    "برای انجام این کار باید به انجمن ورود کنید",
+                    "memberHeader-content",
+                    "profilePage"
+                ],
+                "checkType": "message",
+                "url": "{urlMain}{urlSubpath}/members/?username={username}"
+            },
+            "presenseStrs": [
+                "XenForo"
+            ]
+        },
+        "phpBB/Search": {
+            "name": "phpBB/Search",
+            "site": {
+                "absenceStrs": [
+                    "Подходящих тем или сообщений не найдено."
+                ],
+                "presenseStrs": [
+                    "postprofile",
+                    " username-coloured"
+                ],
+                "checkType": "message",
+                "url": "{urlMain}{urlSubpath}/search.php?author={username}"
+            },
+            "presenseStrs": [
+                "./memberlist.php?mode=viewprofile"
+            ]
+        },
+        "phpBB": {
+            "name": "phpBB",
+            "site": {
+                "absenceStrs": [
+                    "No members found for this search criterion.",
+                    "Не найдено ни одного пользователя по заданным критериям"
+                ],
+                "presenseStrs": [
+                    "You must be logged in to do that.",
+                    "./memberlist.php?mode=viewprofile"
+                ],
+                "checkType": "message",
+                "url": "{urlMain}{urlSubpath}/memberlist.php?username={username}"
+            },
+            "presenseStrs": [
+                "phpBB"
+            ]
+        },
+        "phpBB2/Search": {
+            "name": "phpBB2/Search",
+            "site": {
+                "absenceStrs": [
+                    "Подходящих тем или сообщений не найдено"
+                ],
+                "presenseStrs": [
+                    "\"postdetails"
+                ],
+                "checkType": "message",
+                "url": "{urlMain}{urlSubpath}/search.php?search_author={username}"
+            },
+            "presenseStrs": [
+                "phpBB 2.0"
+            ]
+        },
+        "uCoz": {
+            "name": "uCoz",
+            "site": {
+                "absenceStrs": [
+                    "<title>HTTP 404",
+                    "Пользователь не найден"
+                ],
+                "presenseStrs": [
+                    "udtlb\">Пользователь:</div>",
+                    "Гостям запрещено просматривать данную страницу, пожалуйста войдите на сайт как пользователь.",
+                    "<center><b>Личные данные</b>",
+                    "Гостям запрещено просматривать данную страницу, пожалуйста, войдите на сайт как пользователь.",
+                    "<img alt=\"\" name=\"rankimg\" border=\"0\" src=\"/.s/rnk/",
+                    "Гостям запрещено просматривать персональные страницы пользователей.",
+                    "profile-section-name",
+                    "webo4ka_dannii",
+                    "Дата регистрации"
+                ],
+                "checkType": "message",
+                "regexCheck": "^[^\\.\\-]+$",
+                "url": "{urlMain}/index/8-0-{username}"
+            }
+        },
+        "vBulletin": {
+            "name": "vBulletin",
+            "site": {
+                "absenceStrs": [
+                    "Пользователь не зарегистрирован и не имеет профиля для просмотра.",
+                    "Bu Üye kayıtlı Üyemiz değildir. Bu sebebten dolayı Üyeye ait Profil gösterilemiyor.",
+                    "This user has not registered and therefore does not have a profile to view.",
+                    "Користувач не зареєстрований і не має профілю, який можна переглянути.",
+                    "Deze gebruiker is niet geregistreerd, zodat je zijn of haar profiel niet kunt bekijken.",
+                    "Этот пользователь ещё не зарегистрирован, поэтому его профиль недоступен."
+                ],
+                "checkType": "message",
+                "errors": {
+                    "Простите, но ваш IP в списке запрещенных администрацией форума": "IP ban",
+                    "You have been banned": "IP ban",
+                    "The administrator has banned your IP address": "IP ban",
+                    "Извините, сервер перегружен. Пожалуйста, попробуйте зайти позже.": "Server is overloaded"
+                },
+                "url": "{urlMain}{urlSubpath}/member.php?username={username}"
+            },
+            "presenseStrs": [
+                "content=\"vBulletin "
+            ]
+        },
+        "Discourse": {
+            "name": "Discourse",
+            "site": {
+                "presenseStrs": [
+                    "<meta name=\"generator\" content=\"Discourse"
+                ],
+                "absenceStrs": [
+                    "Oops! That page doesn’t exist or is private.",
+                    "wrap not-found-container"
+                ],
+                "checkType": "message",
+                "url": "{urlMain}/u/{username}/summary"
+            },
+            "presenseStrs": [
+                "<meta name=\"generator\" content=\"Discourse"
+            ]
+        },
+        "DiscourseJson": {
+            "name": "DiscourseJson",
+            "site": {
+                "checkType": "status_code",
+                "url": "{urlMain}/u/{username}",
+                "urlProbe": "{urlMain}/u/{username}.json"
+            }
+        },
+        "Mastodon": {
+            "name": "Mastodon",
+            "site": {
+                "checkType": "status_code",
+                "url": "{urlMain}/@{username}",
+                "urlProbe": "{urlMain}/api/v1/accounts/lookup?acct={username}"
+            }
+        },
+        "Wordpress/Author": {
+            "name": "Wordpress/Author",
+            "site": {
+                "presenseStrs": [
+                    "author-",
+                    "author/"
+                ],
+                "absenceStrs": [
+                    "error404"
+                ],
+                "checkType": "message",
+                "requestHeadOnly": false,
+                "url": "{urlMain}{urlSubpath}/author/{username}/"
+            },
+            "presenseStrs": [
+                "/wp-admin",
+                "/wp-includes/wlwmanifest.xml"
+            ]
+        },
+        "Flarum": {
+            "name": "Flarum",
+            "site": {
+                "presenseStrs": [
+                    "\"attributes\":{\"username\""
+                ],
+                "absenceStrs": [
+                    "NotFound"
+                ],
+                "checkType": "message",
+                "url": "{urlMain}/u/{username}"
+            },
+            "presenseStrs": [
+                "flarum-loading-error"
+            ]
+        },
+        "engine404": {
+            "name": "engine404",
+            "site": {
+                "checkType": "status_code"
+            }
+        },
+        "engineRedirect": {
+            "name": "engineRedirect",
+            "site": {
+                "checkType": "response_url"
+            }
+        },
+        "engine404get": {
+            "name": "engine404get",
+            "site": {
+                "checkType": "status_code",
+                "requestHeadOnly": false
+            }
+        },
+        "engine404message": {
+            "name": "engine404message",
+            "site": {
+                "checkType": "message",
+                "absenceStrs": [
+                    "404"
+                ]
+            }
+        },
+        "op.gg": {
+            "name": "op.gg",
+            "site": {
+                "checkType": "message",
+                "absenceStrs": [
+                    ">“No search results for"
+                ],
+                "urlMain": "https://www.op.gg/",
+                "alexaRank": 331
+            }
+        },
+        "Vanilla": {
+            "name": "Vanilla",
+            "site": {
+                "url": "{urlMain}{urlSubpath}/profile/{username}",
+                "checkType": "message",
+                "presenseStrs": [
+                    "Dashboard Profile",
+                    "\"DefaultAbout\"",
+                    "Section-Entry"
+                ],
+                "absenceStrs": [
+                    "filenotfound"
+                ]
+            },
+            "presenseStrs": [
+                "gdn.meta"
+            ]
+        },
+        "MediaWiki": {
+            "name": "MediaWiki",
+            "site": {
+                "url": "{urlMain}{urlSubpath}/User:{username}",
+                "checkType": "message",
+                "presenseStrs": [
+                    "ns-2",
+                    "mw-body-content"
+                ],
+                "absenceStrs": [
+                    "mw-userpage-userdoesnotexist"
+                ]
+            },
+            "presenseStrs": [
+                "wgCanonicalNamespace",
+                "mw-body-content"
+            ]
+        },
+        "MediaWikiJson": {
+            "name": "MediaWikiJson",
+            "site": {
+                "url": "{urlMain}{urlSubpath}/User:{username}",
+                "urlProbe": "{urlMain}/api.php?action=query&list=users&ususers={username}&usprop=editcount|registration|groups|gender&format=json",
+                "checkType": "message",
+                "presenseStrs": [
+                    "\"userid\":"
+                ],
+                "absenceStrs": [
+                    "\"missing\":",
+                    "\"invalid\":"
+                ]
+            }
+        },
+        "MediaWikiJson/w": {
+            "name": "MediaWikiJson/w",
+            "site": {
+                "url": "{urlMain}{urlSubpath}/User:{username}",
+                "urlProbe": "{urlMain}/w/api.php?action=query&list=users&ususers={username}&usprop=editcount|registration|groups|gender&format=json",
+                "checkType": "message",
+                "presenseStrs": [
+                    "\"userid\":"
+                ],
+                "absenceStrs": [
+                    "\"missing\":",
+                    "\"invalid\":"
+                ]
+            }
+        },
+        "MediaWikiJson/wiki": {
+            "name": "MediaWikiJson/wiki",
+            "site": {
+                "url": "{urlMain}{urlSubpath}/User:{username}",
+                "urlProbe": "{urlMain}/wiki/api.php?action=query&list=users&ususers={username}&usprop=editcount|registration|groups|gender&format=json",
+                "checkType": "message",
+                "presenseStrs": [
+                    "\"userid\":"
+                ],
+                "absenceStrs": [
+                    "\"missing\":",
+                    "\"invalid\":"
+                ]
+            }
+        },
+        "MediaWikiJson/mediawiki": {
+            "name": "MediaWikiJson/mediawiki",
+            "site": {
+                "url": "{urlMain}{urlSubpath}/User:{username}",
+                "urlProbe": "{urlMain}/mediawiki/api.php?action=query&list=users&ususers={username}&usprop=editcount|registration|groups|gender&format=json",
+                "checkType": "message",
+                "presenseStrs": [
+                    "\"userid\":"
+                ],
+                "absenceStrs": [
+                    "\"missing\":",
+                    "\"invalid\":"
+                ]
+            }
+        },
+        "Lemmy": {
+            "name": "Lemmy",
+            "site": {
+                "url": "{urlMain}/u/{username}",
+                "urlProbe": "{urlMain}/api/v3/user?username={username}",
+                "checkType": "status_code"
+            }
+        }
+    },
+    "tags": [
+        "3d",
+        "anime",
+        "apps",
+        "archive",
+        "art",
+        "auto",
+        "blog",
+        "bookmarks",
+        "books",
+        "business",
+        "career",
+        "classified",
+        "coding",
+        "cooking",
+        "crypto",
+        "cybercriminal",
+        "dating",
+        "design",
+        "discussion",
+        "documents",
+        "education",
+        "erotic",
+        "esoteric",
+        "fashion",
+        "finance",
+        "fintech",
+        "firearms",
+        "forum",
+        "freelance",
+        "gambling",
+        "gaming",
+        "geosocial",
+        "hacking",
+        "hobby",
+        "i2p",
+        "lemmy",
+        "links",
+        "llm",
+        "maps",
+        "mastodon",
+        "medicine",
+        "messaging",
+        "military",
+        "movies",
+        "music",
+        "networking",
+        "news",
+        "nft",
+        "parenting",
+        "photo",
+        "porn",
+        "professional",
+        "psychology",
+        "q&a",
+        "reading",
+        "religion",
+        "research",
+        "review",
+        "science",
+        "sharing",
+        "shopping",
+        "social",
+        "sport",
+        "stock",
+        "streaming",
+        "tasks",
+        "tech",
+        "tor",
+        "torrent",
+        "trading",
+        "travel",
+        "video",
+        "webcam",
+        "wiki",
+        "writing"
+    ]
+}

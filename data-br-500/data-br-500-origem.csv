@@ -1,0 +1,501 @@
+site,origem
+Alura,T1 (regra data.json)
+ArtStation,T1 (regra data.json)
+Bandcamp,T1 (regra data.json)
+Behance,T1 (regra data.json)
+CodePen,T1 (regra data.json)
+GitHub,T1 (regra data.json)
+GitLab,T1 (regra data.json)
+HackerOne,T1 (regra data.json)
+Instagram,T1 (regra data.json)
+Letterboxd,T1 (regra data.json)
+Medium,T1 (regra data.json)
+Pinterest,T1 (regra data.json)
+Reddit,T1 (regra data.json)
+Replit,T1 (regra WMN)
+Roblox,T1 (regra data.json)
+SoundCloud,T1 (regra data.json)
+Steam Community,T1 (regra data.json)
+TikTok,T1 (regra data.json)
+Twitch,T1 (regra data.json)
+X,T1 (regra data.json)
+YouTube,T1 (regra data.json)
+bcharts.com.br,T2 Brasil
+bolha.network,T2 Brasil
+Cifra Club,T2 Brasil
+community.latromi.com.br,T2 Brasil
+comunidade.jusfy.com.br,T2 Brasil
+Diário do Comércio,T2 Brasil
+Filmow,T2 Brasil
+fluiggers.com.br,T2 Brasil
+forum.adrenaline.com.br,T2 Brasil
+forum.cpha.pt,T2 Brasil
+forum.linguagemclipper.com.br,T2 Brasil
+habbo.com.br,T2 Brasil
+janelapedia.com.br,T2 Brasil
+Letras.mus.br,T2 Brasil
+NSC Total,T2 Brasil
+Olhar Digital,T2 Brasil
+OP.GG LoL Brazil,T2 Brasil
+origins.habbo.com.br,T2 Brasil
+padrim.com.br,T2 Brasil
+social.teia.bio.br,T2 Brasil
+tibiawiki.com.br,T2 Brasil
+valinor.com.br,T2 Brasil
+wiki2.makrodesk.com.br,T2 Brasil
+Facebook,T3 alexaRank
+LinkedIn,T3 alexaRank
+GooglePlayStore,T3 alexaRank
+Wikipedia,T3 alexaRank
+Google Maps,T3 alexaRank
+Vimeo,T3 alexaRank
+Amazon,T3 alexaRank
+Bit.ly,T3 alexaRank
+WordPress,T3 alexaRank
+Telegram,T3 alexaRank
+Tumblr,T3 alexaRank
+Spotify,T3 alexaRank
+Flickr,T3 alexaRank
+SourceForge,T3 alexaRank
+Launchpad,T3 alexaRank
+Issuu,T3 alexaRank
+Weebly,T3 alexaRank
+linktr.ee,T3 alexaRank
+Discord,T3 alexaRank
+Calendly,T3 alexaRank
+Ebay,T3 alexaRank
+SlideShare,T3 alexaRank
+StackOverflow,T3 alexaRank
+Bluesky,T3 alexaRank
+Substack,T3 alexaRank
+Blogger,T3 alexaRank
+CNET,T3 alexaRank
+Wix,T3 alexaRank
+DailyMotion,T3 alexaRank
+Google Scholar,T3 alexaRank
+Imgur,T3 alexaRank
+Yelp (by id),T3 alexaRank
+Myspace,T3 alexaRank
+ThemeForest,T3 alexaRank
+GoodReads,T3 alexaRank
+OpenStreetMap,T3 alexaRank
+Dribbble,T3 alexaRank
+Gofundme,T3 alexaRank
+Giphy,T3 alexaRank
+Slack,T3 alexaRank
+BuzzFeed,T3 alexaRank
+W3Schools,T3 alexaRank
+Disqus,T3 alexaRank
+Snapchat,T3 alexaRank
+Trello,T3 alexaRank
+MixCloud,T3 alexaRank
+NPM,T3 alexaRank
+Slashdot,T3 alexaRank
+DigitalOcean,T3 alexaRank
+About.me,T3 alexaRank
+Instructables,T3 alexaRank
+HuggingFace,T3 alexaRank
+Laracast,T3 alexaRank
+Paypal,T3 alexaRank
+Itch.io,T3 alexaRank
+BitBucket,T3 alexaRank
+Gumroad,T3 alexaRank
+iStock,T3 alexaRank
+Pastebin,T3 alexaRank
+500px,T3 alexaRank
+TradingView,T3 alexaRank
+kofi,T3 alexaRank
+Rottentomatoes,T3 alexaRank
+DEV Community,T3 alexaRank
+Duolingo,T3 alexaRank
+IBM Video,T3 alexaRank
+Wikidot,T3 alexaRank
+ReverbNation,T3 alexaRank
+ImageShack,T3 alexaRank
+ProductHunt,T3 alexaRank
+BuyMeACoffee,T3 alexaRank
+Gitea,T3 alexaRank
+Flipboard,T3 alexaRank
+Pbase,T3 alexaRank
+Packagist,T3 alexaRank
+Diigo,T3 alexaRank
+Windy,T3 alexaRank
+Codecanyon,T3 alexaRank
+Minecraft,T3 alexaRank
+Codecademy,T3 alexaRank
+HackerNoon,T3 alexaRank
+Instapaper,T3 alexaRank
+Speakerdeck,T3 alexaRank
+Wattpad,T3 alexaRank
+Freecodecamp,T3 alexaRank
+MyAnimeList,T3 alexaRank
+Flightradar24,T3 alexaRank
+TVTropes,T3 alexaRank
+JSFiddle,T3 alexaRank
+GamesRadar,T3 alexaRank
+Geocaching,T3 alexaRank
+Gog,T3 alexaRank
+Coub,T3 alexaRank
+Keybase,T3 alexaRank
+Odysee,T3 alexaRank
+Donorbox,T3 alexaRank
+Hack MD,T3 alexaRank
+iNaturalist,T3 alexaRank
+Venmo,T3 alexaRank
+Steemit,T3 alexaRank
+LeetCode,T3 alexaRank
+Chess,T3 alexaRank
+CTAN,T3 alexaRank
+OpenCollective,T3 alexaRank
+DailyKos,T3 alexaRank
+Mix,T3 alexaRank
+Slides,T3 alexaRank
+Contently,T3 alexaRank
+MyMiniFactory,T3 alexaRank
+OpenSource,T3 alexaRank
+Couchsurfing,T3 alexaRank
+Imgflip,T3 alexaRank
+Hackaday,T3 alexaRank
+Designs99,T3 alexaRank
+Periscope,T3 alexaRank
+Freesound,T3 alexaRank
+Kongregate,T3 alexaRank
+Lichess,T3 alexaRank
+Soup,T3 alexaRank
+Hackster,T3 alexaRank
+Fur Affinity,T3 alexaRank
+Hashnode,T3 alexaRank
+ItemFix,T3 alexaRank
+Carbonmade,T3 alexaRank
+Untappd,T3 alexaRank
+Audiojungle,T3 alexaRank
+Hackerrank,T3 alexaRank
+eBaumsWorld,T3 alexaRank
+Tinder,T3 alexaRank
+domestika.org,T3 alexaRank
+Noblogs,T3 alexaRank
+Setlist,T3 alexaRank
+steamdb.info,T3 alexaRank
+Star Citizen,T3 alexaRank
+Jigsawplanet,T3 alexaRank
+lnk.bio,T3 alexaRank
+Memrise,T3 alexaRank
+Yummly,T3 alexaRank
+Americanthinker,T3 alexaRank
+RubyGems,T3 alexaRank
+TheOdysseyOnline,T3 alexaRank
+Picsart,T3 alexaRank
+Armorgames,T3 alexaRank
+Fotki,T3 alexaRank
+Lesswrong,T3 alexaRank
+Paltalk,T3 alexaRank
+NICommunityForum,T3 alexaRank
+VideoHive,T3 alexaRank
+Clubhouse,T3 alexaRank
+xenforo.com,T3 alexaRank
+Globalvoices,T3 alexaRank
+Polymarket,T3 alexaRank
+Namepros,T3 alexaRank
+write.as,T3 alexaRank
+Warrior Forum,T3 alexaRank
+are.na,T3 alexaRank
+Mstdn.social,T3 alexaRank
+ResidentAdvisor,T3 alexaRank
+Sporcle,T3 alexaRank
+Coroflot,T3 alexaRank
+LyricsTranslate,T3 alexaRank
+Guru,T3 alexaRank
+Rarible,T3 alexaRank
+CGTrader,T3 alexaRank
+Coderwall,T3 alexaRank
+Observable,T3 alexaRank
+Codementor,T3 alexaRank
+N4g,T3 alexaRank
+pixelfed.social,T3 alexaRank
+Weedmaps,T3 alexaRank
+Listal,T3 alexaRank
+Spatial,T3 alexaRank
+Paragraph,T3 alexaRank
+mastodon.social,T3 alexaRank
+notabug.org,T3 alexaRank
+Vivino,T3 alexaRank
+Thechive,T3 alexaRank
+Goldderby,T3 alexaRank
+Brusheezy,T3 alexaRank
+Mobypicture,T3 alexaRank
+Physicsforums,T3 alexaRank
+Open Game Art,T3 alexaRank
+Lobsters,T3 alexaRank
+TryHackMe,T3 alexaRank
+iFunny,T3 alexaRank
+Topcoder,T3 alexaRank
+picturepush.com,T3 alexaRank
+Hot UKdeals,T3 alexaRank
+Codewars,T3 alexaRank
+shor.by,T3 alexaRank
+Ficwad,T3 alexaRank
+Tripline,T3 alexaRank
+Wishlistr,T3 alexaRank
+DeepDreamGenerator,T3 alexaRank
+1x,T3 alexaRank
+PatientsLikeMe,T3 alexaRank
+Pokecommunity,T3 alexaRank
+Datpiff,T3 alexaRank
+Pling,T3 alexaRank
+many.link,T3 alexaRank
+23hq,T3 alexaRank
+sessionize.com,T3 alexaRank
+Androidforums,T3 alexaRank
+osu!,T3 alexaRank
+YouPic,T3 alexaRank
+Polarsteps,T3 alexaRank
+Tagged,T3 alexaRank
+writingforums.org,T3 alexaRank
+Antiquers,T3 alexaRank
+ManifoldMarkets,T3 alexaRank
+Steamidfinder,T3 alexaRank
+Skyblock,T3 alexaRank
+Hive Blog,T3 alexaRank
+webdeveloper.com,T3 alexaRank
+fediverse.party,T3 alexaRank
+clarity.fm,T3 alexaRank
+Sugoidesu,T3 alexaRank
+Publiclab,T3 alexaRank
+Zora,T3 alexaRank
+InterPals,T3 alexaRank
+smokingmeatforums.com,T3 alexaRank
+Rappad,T3 alexaRank
+Revolut.me,T3 alexaRank
+homebrewtalk.com,T3 alexaRank
+tfw2005.com,T3 alexaRank
+Lemmy World,T3 alexaRank
+Cent,T3 alexaRank
+Vjudge,T3 alexaRank
+Wigle,T3 alexaRank
+TheSimsResource,T3 alexaRank
+Windowsforum,T3 alexaRank
+Warpcast,T3 alexaRank
+Topmate,T3 alexaRank
+Typeracer,T3 alexaRank
+devRant,T3 alexaRank
+VLR,T3 alexaRank
+HackingWithSwift,T3 alexaRank
+Trisquel,T3 alexaRank
+Pokemon Showdown,T3 alexaRank
+mynickname.com,T3 alexaRank
+Likee,T3 alexaRank
+bigfooty.com,T3 alexaRank
+Crevado,T3 alexaRank
+Monkeytype,T3 alexaRank
+E621,T3 alexaRank
+Gvectors,T3 alexaRank
+Rollitup,T3 alexaRank
+rive.app,T3 alexaRank
+Gingerbread,T3 alexaRank
+CashMe,T3 alexaRank
+mstdn.io,T3 alexaRank
+lightstalking.com,T3 alexaRank
+Intigriti,T3 alexaRank
+Hotcopper,T3 alexaRank
+GuruShots,T3 alexaRank
+bitpapa.com,T3 alexaRank
+Weasyl,T3 alexaRank
+Touristlink,T3 alexaRank
+W7forums,T3 alexaRank
+Fragment,T3 alexaRank
+AllTheLyrics,T3 alexaRank
+Nothing Community,T3 alexaRank
+Clozemaster,T3 alexaRank
+Hackthissite,T3 alexaRank
+Beerintheevening,T3 alexaRank
+1001tracklists,T3 alexaRank
+Pronouns.page,T3 alexaRank
+programming.dev,T3 alexaRank
+Listography,T3 alexaRank
+Elixirforum,T3 alexaRank
+Jigidi,T3 alexaRank
+Runitonce,T3 alexaRank
+oshwlab.com,T3 alexaRank
+Showme,T3 alexaRank
+Office-forums,T3 alexaRank
+Pentester Lab,T3 alexaRank
+Snooth,T3 alexaRank
+svtperformance.com,T3 alexaRank
+Ruby-forum,T3 alexaRank
+HSX,T3 alexaRank
+Blipfoto,T3 alexaRank
+ww2aircraft.net,T3 alexaRank
+Nitro Type,T3 alexaRank
+SoylentNews,T3 alexaRank
+Niketalk,T3 alexaRank
+Affiliatefix,T3 alexaRank
+Mac-help,T3 alexaRank
+Flashflashrevolution,T3 alexaRank
+Spells8,T3 alexaRank
+hozpitality,T3 alexaRank
+Crypto Hack,T3 alexaRank
+Piccsy,T3 alexaRank
+Windows10forums,T3 alexaRank
+ngl.link,T3 alexaRank
+Hudson Rock,T3 alexaRank
+mywishboard.com,T3 alexaRank
+Macosx,T3 alexaRank
+ReligiousForums,T3 alexaRank
+not606.com,T3 alexaRank
+Gpodder,T3 alexaRank
+Clapper,T3 alexaRank
+Dissenter,T3 alexaRank
+Imood,T3 alexaRank
+Qbn,T3 alexaRank
+followus.com,T3 alexaRank
+Wolpy,T3 alexaRank
+Warframe Market,T3 alexaRank
+cubecraft.net,T3 alexaRank
+oakleyforum.com,T3 alexaRank
+Cyber Defenders,T3 alexaRank
+Thelion,T3 alexaRank
+nucastle.co.uk,T3 alexaRank
+Realmeye-graveyard,T3 alexaRank
+tigerfan.com,T3 alexaRank
+Xbox Gamertag,T3 alexaRank
+Pychess,T3 alexaRank
+directx10.org,T3 alexaRank
+Texasguntalk,T3 alexaRank
+Truthbook,T3 alexaRank
+rec.poker,T3 alexaRank
+Antique-bottles,T3 alexaRank
+ridemonkey.com,T3 alexaRank
+Discussfastpitch,T3 alexaRank
+nikoncafe.com,T3 alexaRank
+cowboyszone.com,T3 alexaRank
+Votetags,T3 alexaRank
+Thebuddyforum,T3 alexaRank
+Gentlemint,T3 alexaRank
+Dumpor,T3 alexaRank
+crown6.org,T3 alexaRank
+Coders Rank,T3 alexaRank
+southbayriders.com,T3 alexaRank
+Status Cafe,T3 alexaRank
+Painters-online,T3 alexaRank
+Hellboundhackers,T3 alexaRank
+Admire Me,T3 alexaRank
+Expono,T3 alexaRank
+Connosr,T3 alexaRank
+LiveTrack24,T3 alexaRank
+hondaswap.com,T3 alexaRank
+Interfaith,T3 alexaRank
+438punk.house,T4 preenchimento
+8tracks.com,T4 preenchimento
+a.nti.social,T4 preenchimento
+aetherhub,T4 preenchimento
+Airbit,T4 preenchimento
+anar.chi.st,T4 preenchimento
+Anonup,T4 preenchimento
+Archive.orgParlerPosts,T4 preenchimento
+archive.transformativeworks.org,T4 preenchimento
+artfol.me,T4 preenchimento
+asquero.com,T4 preenchimento
+ausglam.space,T4 preenchimento
+Bandlab,T4 preenchimento
+BeatStars,T4 preenchimento
+Bentbox,T4 preenchimento
+BeReal,T4 preenchimento
+Bible.com,T4 preenchimento
+bigshoulders.city,T4 preenchimento
+bioinformaticsonline.com,T4 preenchimento
+blob.cat,T4 preenchimento
+blog.taursnd.haus,T4 preenchimento
+BodyBuilding,T4 preenchimento
+books.superawesomecorp.space,T4 preenchimento
+breakers.tv,T4 preenchimento
+buicha.social,T4 preenchimento
+bulbapp.com,T4 preenchimento
+Caringbridge,T4 preenchimento
+Carrd.co,T4 preenchimento
+Castingcallclub,T4 preenchimento
+catboy.baby,T4 preenchimento
+Cheezburger,T4 preenchimento
+Citizen4,T4 preenchimento
+comfy.social,T4 preenchimento
+ContactInBio (domain),T4 preenchimento
+ContactInBio (URL),T4 preenchimento
+cute.aam.pics,T4 preenchimento
+detroitriotcity.com,T4 preenchimento
+dev.tildefriends.net,T4 preenchimento
+devs.live,T4 preenchimento
+DimensionalMe,T4 preenchimento
+Discord.bio,T4 preenchimento
+Dojoverse,T4 preenchimento
+donotsta.re,T4 preenchimento
+eggware.social,T4 preenchimento
+eientei.org,T4 preenchimento
+electricrequiem.com,T4 preenchimento
+Elftown,T4 preenchimento
+eveningzoo.club,T4 preenchimento
+f.haeder.net,T4 preenchimento
+Fabswingers,T4 preenchimento
+Faceit,T4 preenchimento
+Fancentro,T4 preenchimento
+FandomCommunityCentral,T4 preenchimento
+fanscout.com,T4 preenchimento
+Fansly,T4 preenchimento
+fe.disroot.org,T4 preenchimento
+fedi.absturztau.be,T4 preenchimento
+fedi.thechangebook.org,T4 preenchimento
+fedihood.social,T4 preenchimento
+ffm.bio,T4 preenchimento
+fgc.network,T4 preenchimento
+forum.polakow.ch,T4 preenchimento
+freaksonly.space,T4 preenchimento
+Freepo,T4 preenchimento
+freesoftwareextremist.com,T4 preenchimento
+friend.yargl.com,T4 preenchimento
+friendica.eskimo.com,T4 preenchimento
+friendica.gidikroon.eu,T4 preenchimento
+friendica.myportal.social,T4 preenchimento
+friendica.opensocial.space,T4 preenchimento
+friendica.rogueproject.org,T4 preenchimento
+friendica.tf-translate.net,T4 preenchimento
+friendica.world,T4 preenchimento
+friends.officebot.io,T4 preenchimento
+fsmi.social,T4 preenchimento
+GaragePunk,T4 preenchimento
+genserver.social,T4 preenchimento
+gigaohm.bio,T4 preenchimento
+Grailed,T4 preenchimento
+Gravatar,T4 preenchimento
+Hexrpg,T4 preenchimento
+Hey,T4 preenchimento
+hiveblocks.com,T4 preenchimento
+Holopin,T4 preenchimento
+hub.kliklak.net,T4 preenchimento
+hub.netzgemeinde.eu,T4 preenchimento
+hubzilla.eskimo.com,T4 preenchimento
+hubzilla.monster,T4 preenchimento
+hyprr.com,T4 preenchimento
+ichi.city,T4 preenchimento
+incremental.social,T4 preenchimento
+Inkbunny,T4 preenchimento
+inne.city,T4 preenchimento
+Insanejournal,T4 preenchimento
+java.duke.social,T4 preenchimento
+Justforfans,T4 preenchimento
+Karab.in,T4 preenchimento
+kazv.moe,T4 preenchimento
+kiwifarms.cc,T4 preenchimento
+kowelenz.social,T4 preenchimento
+labyrinth.zone,T4 preenchimento
+LibReviews,T4 preenchimento
+Linkkle,T4 preenchimento
+luzeed.org,T4 preenchimento
+Maga-Chat,T4 preenchimento
+Magabook,T4 preenchimento
+Mapify.travel,T4 preenchimento
+memory.lol,T4 preenchimento
+merveilles.town,T4 preenchimento
+meta.discourse.org,T4 preenchimento
+metapixl.com,T4 preenchimento
+mikuobsession.net,T4 preenchimento
+miraiverse.xyz,T4 preenchimento
+misskey.gg,T4 preenchimento
+misskey.social,T4 preenchimento

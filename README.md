@@ -31,7 +31,7 @@ https://github.com/Swiftxzn/Sherlock
 Se você precisa carregar os dados em tempo de execução na sua aplicação, utilize o link direto do GitHub:
 
 ```text
-[https://githubusercontent.com](https://raw.githubusercontent.com/Swiftxzn/Manifesto-BR/refs/heads/main/wmn-data-br-1000.json)
+https://raw.githubusercontent.com/Swiftxzn/Manifesto-BR/refs/heads/main/wmn-data-br-1000.json
 ```
 
 ---

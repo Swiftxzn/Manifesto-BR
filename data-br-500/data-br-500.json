@@ -7892,6 +7892,7 @@
                 "url": "{urlMain}/u/{username}",
                 "urlProbe": "{urlMain}/api/v3/user?username={username}",
                 "checkType": "status_code"
+                
             }
         }
     },
